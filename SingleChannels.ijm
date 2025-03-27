@@ -1,0 +1,10 @@
+name = getTitle();
+run("Split Channels");
+selectImage("C1-"+name);
+rename("SingleChannelNuclei.tif");
+selectImage("C2-"+name);
+rename("SingleChannelPV.tif");
+selectImage("C3-"+name);
+rename("SingleChannelD1.tif");
+selectImage("C4-"+name);
+rename("SingleChannelNeuN.tif");
