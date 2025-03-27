@@ -1,0 +1,14 @@
+imageCalculator("Add create 32-bit stack", "SingleChannelNeuN.tif","SingleChannelD1.tif");
+selectImage("Result of SingleChannelNeuN.tif");
+imageCalculator("Add create 32-bit stack", "Result of SingleChannelNeuN.tif","SingleChannelPV.tif");
+selectImage("Result of Result of SingleChannelNeuN.tif");
+selectImage("Result of SingleChannelNeuN.tif");
+close;
+selectImage("SingleChannelPV.tif");
+close;
+selectImage("SingleChannelD1.tif");
+close;
+selectImage("SingleChannelNeuN.tif");
+close;
+selectImage("Result of Result of SingleChannelNeuN.tif");
+rename("D1+NeuN+PV.tif");
