@@ -1,0 +1,17 @@
+path = getDirectory("image");
+imageCalculator("Add create stack", "D1+NeuN+PV_binary.tif","SingleChannelNeuN_binary.tif");
+selectImage("Result of D1+NeuN+PV_binary.tif");
+imageCalculator("Add create stack", "Result of D1+NeuN+PV_binary.tif","SingleChannelD1_binary.tif");
+selectImage("Result of Result of D1+NeuN+PV_binary.tif");
+selectImage("Result of D1+NeuN+PV_binary.tif");
+close;
+selectImage("D1+NeuN+PV_binary.tif");
+close;
+selectImage("SingleChannelD1_binary.tif");
+close;
+selectImage("SingleChannelNeuN_binary.tif");
+close;
+selectImage("Result of Result of D1+NeuN+PV_binary.tif");
+rename("AllCells_binary.tif");
+saveAs("tiff", path + "AllCells_binary.tif");
+close();
