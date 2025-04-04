@@ -14,7 +14,7 @@ Step 9 - For each folder, open the following binary images:  D1+NeuN+PV, D1, Neu
 Step 10 - For each folder, open the first image (AllCells_binary.tif).  Add the proper channels together into a single tiff via "MakeImarisFile.ijm".  Change the name of the Imaris image if necessary.\
 Step 11 - Convert all the Imaris tiffs into Imaris files with the Imaris File Converter.\
 Step 12 - Update the channel colors and names in each file within Imaris.\
-Step 13 - Import D1+NeuN+PV_label.tif as new surfaces.  Rename All Cells.
-Step 14 - Import SingleChannelNuclei_label.tif as new surfaces.  Rename All Nuclei.  Filter surfaces with a median intensity of the All Cells (binary) channel (channel 5) of zero.  Export selected surfaces to a new surfaces set and rename Nuclei Outside Cells.
+Step 13 - Import D1+NeuN+PV_label.tif as new surfaces.  Rename All Cells.\
+Step 14 - Import SingleChannelNuclei_label.tif as new surfaces.  Rename All Nuclei.  Filter surfaces with a median intensity of the All Cells (binary) channel (channel 5) of zero.  Export selected surfaces to a new surfaces set and rename Nuclei Outside Cells.\
 Step 15 - Save and store Imaris file.
 
